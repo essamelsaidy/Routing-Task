@@ -1,0 +1,75 @@
+h1{
+    color: #2C3E50;
+    
+}
+.title-icon i{
+    color: #2C3E50;
+
+}
+
+.title-icon::after{
+    background-color: aliceblue;
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 54%;
+    width: 100px;
+    height: 4px;
+    background-color: #2C3E50;
+}
+.title-icon::before{
+    background-color: aliceblue;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 54%;
+    width: 100px;
+    height: 4px;
+    background-color: #2C3E50;
+}
+.item .layer{
+    top: 0;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(26, 185, 159, .95);
+    opacity: 0;
+    transition: all;
+
+}
+.item{
+    cursor: pointer;
+}
+.item .layer:hover{
+    opacity: 1;
+   transition: .4s;
+}
+.item .layer i {
+    font-size: 8rem;
+    background-color: transparent;
+    color: #fff;
+    
+
+}
+.lightBoxContainer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.lightBox{
+    width: 500px;
+    height: 500px;
+    /* background-image: url(../../../public/poert1.png); */
+    background-size: cover;
+    background-position: center;
+}

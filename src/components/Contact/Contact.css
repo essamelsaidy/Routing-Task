@@ -1,0 +1,20 @@
+form label{
+top: 10%;
+left: -40%;
+z-index: 999999;
+font-size: 20px;
+
+
+}
+form input:focus{
+   border: none;
+   outline: none;
+   
+
+}
+form button{
+    background-color: #1ABC9C !important;
+    color: #fff !important;
+    position: relative;
+    left: -35%;
+}
