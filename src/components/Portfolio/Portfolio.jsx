@@ -1,4 +1,6 @@
 import React from "react";
+import style from "./Portfolio.css"
+
 import { useEffect } from "react";
 
 export default function Portfolio() {
