@@ -1,5 +1,8 @@
 import React from "react";
 import style from "./Portfolio.css"
+import img1 from "../../public/poert1.png"
+import img2 from "../../public/port2.png"
+import img3 from "../../public/port3.png"
 
 import { useEffect } from "react";
 
@@ -50,7 +53,7 @@ export default function Portfolio() {
           <div className="col-md-4">
             <div className="item position-relative">
               <img
-                src="../../public/poert1.png"
+                src={img1}
                 className="w-100 rounded-2"
                 alt=""
               />
@@ -62,7 +65,7 @@ export default function Portfolio() {
           <div className="col-md-4">
             <div className="item position-relative">
               <img
-                src="../../public/port2.png"
+                src={img2}
                 className="w-100 rounded-2"
                 alt=""
               />
@@ -74,7 +77,7 @@ export default function Portfolio() {
           <div className="col-md-4">
             <div className="item position-relative">
               <img
-                src="../../public/port3.png"
+                src={img3}
                 className="w-100 rounded-2"
                 alt=""
               />
@@ -86,7 +89,7 @@ export default function Portfolio() {
           <div className="col-md-4">
             <div className="item position-relative">
               <img
-                src="../../public/poert1.png"
+                src={img1}
                 className="w-100 rounded-2"
                 alt=""
               />
@@ -98,7 +101,7 @@ export default function Portfolio() {
           <div className="col-md-4">
             <div className="item position-relative">
               <img
-                src="../../public/port2.png"
+                src={img2}
                 className="w-100 rounded-2"
                 alt=""
               />
@@ -107,10 +110,10 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col`-md-4">
             <div className="item position-relative">
               <img
-                src="../../public/port3.png"
+                src={img3}
                 className="w-100 rounded-2"
                 alt=""
               />

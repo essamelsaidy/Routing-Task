@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./Home.css"
-
+import img from "../../public/avataaars.svg"
 export default function Home() {
   return (
     <>
@@ -9,7 +9,7 @@ export default function Home() {
           <div className="row ">
             <div className="col-md-12 d-flex justify-content-center align-items-center flex-column gap-3">
               <div className="hero mb-3 mt-5 rounded-circle">
-                <img src="../../public/avataaars.svg" alt="" />
+                <img src={img} alt="" />
               </div>
               <div className="hero-title text-center pb-3">
                 <h1 className="text-white  fw-polder">Start Framework</h1>
