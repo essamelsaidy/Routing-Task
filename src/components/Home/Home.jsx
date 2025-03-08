@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./Home.css"
-import img from "../../public/avataaars.svg"
+import img from "../../assets/avataaars.svg"
 export default function Home() {
   return (
     <>

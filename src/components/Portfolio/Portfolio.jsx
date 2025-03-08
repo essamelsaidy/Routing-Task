@@ -1,8 +1,8 @@
 import React from "react";
 import style from "./Portfolio.css"
-import img1 from "../../public/poert1.png"
-import img2 from "../../public/port2.png"
-import img3 from "../../public/port3.png"
+import img1 from "../../assets/poert1"
+import img2 from "../../assets/port2.png"
+import img3 from "../../assets/port3.png"
 
 import { useEffect } from "react";
 
